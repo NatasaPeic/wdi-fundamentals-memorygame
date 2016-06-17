@@ -1,44 +1,48 @@
-body {
-  font-family: Arial;
-  
-}
-
 .board {
-      width: 50%;
+      width: 40%;
       height: 50%;
       display: inline-block;
-        float: left;
-        margin: 8%;
+      float: left;
+      margin: 10%;
   
 }
 
-.card_left {
+.card {
       height: 200px;
       width: 150px;
       border: 1px solid black;
       background-color: yellow;
       border-radius: 10px;
-        float: left;
-        display: block;
-        margin: 0 10px 50px 50px;
-        padding: 5px;
-        clear: both;
+      float: left;
+      display: block;
+      margin: 0 10px 50px 50px;
+      padding: 15px;
+    
   
 }
 
 
-.card_right {
-      height: 200px;
-      width: 150px;
-      border: 1px solid black;
-      background-color: yellow;
-      border-radius: 10px;
-        float: left;
-        display: block;
-        margin: 0 10px 50px 50px;
-        padding: 5px;   
+.button {
+    background-color: #ee5f3c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+    float: none;
 }
 
+h3 {
+  margin-left: 50px;
+  font-family: Arial;
+  margin-top: 100px;
+  color: #ffbf00;
+}
 
 
 h1 {
@@ -100,7 +104,7 @@ footer {
  
 }
 
-header, footer, p {
+header, footer, p, h2 {
   text-align: center;
 }
 
@@ -108,6 +112,3 @@ header, footer, p {
 span {
   color: purple;
 }
-
-
-
